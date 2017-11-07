@@ -56,6 +56,21 @@ a{
   margin-top: 0 auto;
     align-content: center;
 }
+img{
+  width: 250px;
+  height: auto;
+}
 table{
-  align-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.centrartabla{
+  text-align: center;
+}
+div.centartabla table{
+  margin: 0 auto;
+  text-align: left;
+}
+body{
+  content: center;
 }

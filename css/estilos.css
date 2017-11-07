@@ -1,0 +1,44 @@
+BODY {
+background-color :#0e4380 ;
+font-family : arial;
+}
+
+P {
+font-size : 20pt;
+font-family :helvetica;
+text-align : center;
+}
+
+H1 {
+font-size : 20pt;
+font-family : verdana,arial;
+text-align : center;
+}
+
+div.justified {
+    margin-left: center;
+}
+
+
+H2 {
+font-size : 15pt;
+font-family : verdana;
+text-align : center;
+}
+
+.boton {
+    overflow: hidden;
+    border: 1px
+    solid #444;
+    text-align: center;
+    background-color: #31B404;
+    font-size:2s0px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+       width:130px;
+       height:30px;
+}
+
+div {
+  text-align: center;
+}
