@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Nuevo Post</title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<h1 id="titulo">NUEVO POST</h1>
+	<div>	
+	<a href="index.html"><label>P&aacute;gina Principal</label></a><br>
+	<a href="NuevoPost.html"><label>Nuevo Post</label></a><br>
+	<a href="PostRecientes.html"><label>Post Recientes</label></a>
+		<form role="form" name="NuevoPost">
+			<div class="form-group">
+				<label for="enlace">T&iacute;tulo</label>
+				<br>
+				<input type="text" class="form-control" name="titulo" id="titulo" placeholder="Escribe tu T&iacute;tulo" required="Es necesario llenar este campo">
+			</div>		<div class="form-group">
+				<label for="enlace">Descripci&oacute;n</label>
+				<br>
+				<textarea class="form-control" name="descripcion" placeholder=" Escribe la Descripcí&oacute;n" required="Es necesario llenar este campo"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="enlace">Imagen</label>
+				<br>
+				<input type="file" class="form-control" id="imagen" name="imagen">
+			</div>
+			<div class="form-group">
+				<label for="enlace">Contenido</label>
+				<br>
+				<textarea class="form-control" name="contenido" placeholder="Escribe el Contenido" required="Es necesario llenar este campo"></textarea>
+			</div>			
+			<div class="form-group">			
+				<button type="submit" class="" title="registrar">Registrar</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
