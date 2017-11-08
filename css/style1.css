@@ -1,18 +1,6 @@
 /*selecto univesal para no dejar espacios*/
 
-body{  
-  background:   #0E4380;
-  color: #fff;
-}
-h1{
-    font-size: 50px;    
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom:  20;
-    margin-top: 0;
-    text-align: center;
-}
-button{
+.enviar button{
   background: #0000FF;
   color: #fdfefe;  
   margin-top: 10px;
@@ -58,4 +46,9 @@ a{
 }
 table{
   align-content: center;
+}
+.sectionnuevopost{
+  width: 100%;
+  height: auto; 
+  float: left;
 }

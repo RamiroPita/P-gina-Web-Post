@@ -4,38 +4,105 @@
 	<meta charset="utf-8">
 	<title>Nuevo Post</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style1.css">
+
 
 </head>
 <body>
-	<h1 id="titulo">NUEVO POST</h1>
-	<div>	
-	<a href="index.html"><label>P&aacute;gina Principal</label></a><br>
-	<a href="NuevoPost.html"><label>Nuevo Post</label></a><br>
-	<a href="ComentarioPost.html"><label>Post Recientes</label></a>
-		<form role="form" name="NuevoPost">
-			<div class="form-group">
-				<label for="enlace">T&iacute;tulo</label>
-				<br>
-				<input type="text" class="form-control" name="titulo" id="titulo" placeholder="Escribe tu T&iacute;tulo" required="Es necesario llenar este campo">
-			</div>		<div class="form-group">
-				<label for="enlace">Descripci&oacute;n</label>
-				<br>
-				<textarea class="form-control" name="descripcion" placeholder=" Escribe la Descripcí&oacute;n" required="Es necesario llenar este campo"></textarea>
+	<header>
+		<div class="uno">
+			<div class="play"> 
+				<p>Play</p>
 			</div>
-			<div class="form-group">
-				<label for="enlace">Imagen</label>
-				<br>
-				<input type="file" class="form-control" id="imagen" name="imagen">
+			<div class="book">
+				<h1>book</h1>
+				<p>comorsd</p>
 			</div>
-			<div class="form-group">
-				<label for="enlace">Contenido</label>
-				<br>
-				<textarea class="form-control" name="contenido" placeholder="Escribe el Contenido" required="Es necesario llenar este campo"></textarea>
+			<div class="dos">
+				<div class="html">
+					<h1>HTML5</h1>
+					<p>Ejercicio</p>
+				</div>
+				<div class="html">
+					<button>Join Treehouse</button>
+				</div>
+				<div class="logo">
+					<img src="img/Qué-es-el-amor-a-la-naturaleza-.jpg">
+				</div>
 			</div>			
-			<div class="form-group">			
-				<button type="submit" class="" title="registrar">Registrar</button>
+		</div>
+	</header>
+	<nav>		
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="ComentarioPost.html">Comentarios de Post</a></li>
+			<li><a href="NuevoPost.html">Nuevo Post</a></li>
+		</ul>
+	</nav>
+	<section>
+		<article class="sectionnuevopost">
+			<div class="postrecientes">
+				<div class="titulo">
+					<h1>Nuevo Post</h1>
+				</div>			
+				<div class="tablapost">
+					<form role="form" name="NuevoPost">
+						<div class="form-group">
+							<label for="enlace">T&iacute;tulo</label>
+							<br>
+							<input type="text" class="form-control" name="titulo" id="titulo" placeholder="Escribe tu T&iacute;tulo" required="Es necesario llenar este campo">
+						</div>		<div class="form-group">
+							<label for="enlace">Descripci&oacute;n</label>
+							<br>
+							<textarea class="form-control" name="descripcion" placeholder=" Escribe la Descripcí&oacute;n" required="Es necesario llenar este campo"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="enlace">Imagen</label>
+							<br>
+							<input type="file" class="form-control" id="imagen" name="imagen">
+						</div>
+						<div class="form-group">
+							<label for="enlace">Contenido</label>
+							<br>
+							<textarea class="form-control" name="contenido" placeholder="Escribe el Contenido" required="Es necesario llenar este campo"></textarea>
+						</div>			
+						<div class="enviar">			
+							<button type="submit" class="" title="registrar">Registrar</button>
+						</div>
+					</form>
+				</div>
+			</div>				
+		</article>
+		<!--<aside>
+			<div class="formulariobuscar">
+				<div class="Buscar">					
+					<input type="search" placeholder="Buscar">
+				</div>
+				<div class="icono">
+					<button><img src="img/images.jpeg"></button>
+				</div>					
+			</div>					
+			<div class="aside">
+				<table>
+					<tr>
+						<td>
+							<img src="img/8dbe9ae0-2a10-4d47-9b8d-6da72e058e01-300x200.jpg">
+							<h2> Construcciones destruidas por recursos naturales </h2>
+							<p> Iglesia de Jalapa del Marqués destruida por las aguas de una presa </p>
+							<p> Fecha: 2017/11/08 </p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="img/La-Gran-Muralla-China-atracciones-tours-viajes-y-turismo-en-China.jpg">
+							<h2> Paisajes creados por el hombre</h2>
+							<p> Son aquellos lugares que los humanos han ido creando con los recursos que la naturaleza les brinda </p>
+							<p> Fecha: 2017/11/07 </p>
+						</td>
+					</tr>
+				</table>
 			</div>
-		</form>
-	</div>
+		</aside>-->
+	</section>	
 </body>
 </html>

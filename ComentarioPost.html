@@ -1,44 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>Post Recientes</title>
-<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/style1.css" media="screen" />
+    <meta charset="utf-8">
+    <title>Post Recientes</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style1.css"/>
 </head>
 
 <body>
-<a href="index.html"><label>P&aacute;gina Principal</label></a><br>
-	<a href="NuevoPost.html"><label>Nuevo Post</label></a><br>
-	<a href="ComentarioPost.html"><label>Post Recientes</label></a>
-<div>
-  <h1>Artesanias de Barro Policromado</h1>
-
-  <p>
-  Para hacer una nueva pieza de barro, primero tienes que tener listo el barro<br/>
-  mojado de tal manera que se pueda moldear.<br/>
-  Ojo!...Lo debes hornear a una temperatura de 12 grados centigrados<br/    >
-  </p>
-
-</div>
-<div class="justified">
-<p>
-  <h1>Deja un comentario</h1>
-  <h2>Comentario</h2>
-  <textarea name="comentario"></textarea>
-</p>
-
-
-<p>
-<h2>Nombre</h2>
-<input type="text" name=""/>
-</p>
-
-<p>
-<h2>Correo Electronico</h2>
-<input type="email">
-</p>
-
-<input type="button" value="Enviar" class="boton">
-</div>
-</div>
+    <header>
+          <div class="uno">
+              <div class="play"> 
+                  <p>Play</p>
+              </div>
+              <div class="book">
+                  <h1>book</h1>
+                  <p>comorsd</p>
+              </div>
+              <div class="dos">
+                  <div class="html">
+                      <h1>HTML5</h1>
+                      <p>Ejercicio</p>
+                  </div>
+                  <div class="html">
+                      <button>Join Treehouse</button>
+                  </div>
+                  <div class="logo">
+                      <img src="img/Qué-es-el-amor-a-la-naturaleza-.jpg">
+                  </div>
+              </div>      
+          </div>
+    </header>
+    <nav>   
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="ComentarioPost.html">Comentarios de Post</a></li>
+          <li><a href="NuevoPost.html">Nuevo Post</a></li>
+        </ul>
+    </nav>
+    <section>     
+          <article class="sectionnuevopost">
+              <div class="postrecientes">
+        <div class="titulo">
+          <h1>Artesanias de Barro Policromado</h1>
+        </div>      
+        <div class="tablapost">
+          <form role="form" name="NuevoPost">
+            <div class="form-group">
+              <img src="img/barro.jpeg">
+            </div>    
+            <div class="form-group">
+                  <h2>Comentarios</h2>
+                  <div class="form-group">
+                  <h3>comentario 1</h3>
+                     <p>
+                      Para hacer una nueva pieza de barro, primero tienes que tener listo el barro
+                      mojado de tal manera que se pueda moldear.
+                      Ojo!...Lo debes hornear a una temperatura de 12 grados centigrados.
+                      </p>
+                    </div>
+                    <div class="form-group">
+                    <h3>comentario 2</h3>
+                        <p>
+                        Para hacer una nueva pieza de barro, necesitamos un buen barro para realizar pizas de mayor calidad
+                        ya que  es  muy dificil relizalos y pocas personas lo hacen.
+                        </p>
+                    </div>
+            </div>
+            <div class="form-group">
+                    <h1>Deja un comentario</h1>
+                    <h2>Comentario</h2>
+                    <textarea name="comentario" placeholder="Esciba Comentario" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="enlace">Nombre</label>
+              <br>
+              <input type="text" placeholder="Nombre" required>
+            </div>      
+            <div class="form-group">
+              <label for="enlace">Correo Electr&oacute;nico</label>
+              <br>
+              <input type="email" placeholder="Correo Electr&oacute;nico" required>
+            </div>     
+            <div class="enviar">      
+              <button type="submit" class="" title="registrar">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div> 
+          </article>
+    </section>
 </body>
-</html>
+</html>    
